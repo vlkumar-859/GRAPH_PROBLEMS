@@ -18,8 +18,8 @@ class Solution
                 {
                     visited[neighbour] = true;
                     result.add(neighbour);
-                    queue.add(neighbour);
                 }
+                queue.add(neighbour);
             }
         }
         return result;
