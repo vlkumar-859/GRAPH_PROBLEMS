@@ -10,7 +10,6 @@ class Solution
         visited[0] = true;
         while(!queue.isEmpty())
         {
-            int size = queue.size();
             int curr = queue.removeFirst();
             for(int neighbour:adj.get(curr))
             {
